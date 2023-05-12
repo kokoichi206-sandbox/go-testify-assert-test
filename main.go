@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/kokoichi206-sandbox/go-testify-assert-test/gen/go/protobuf"

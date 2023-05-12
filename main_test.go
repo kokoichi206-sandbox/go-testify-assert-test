@@ -32,6 +32,9 @@ func TestAssertion(t *testing.T) {
 
 			actual := NewProtoMessage(tc.name)
 
+			// proto.Equal なるものもある
+			// assert.True(t, proto.Equal(tc.expected, actual))
+
 			assert.Equal(t, tc.expected, actual, "result didn't match")
 		})
 	}
